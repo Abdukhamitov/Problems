@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Something changes from the rearrangemen", "..\Something changes from the rearrangemen\Something changes from the rearrangemen.vcxproj", "{90F693EE-3765-4D67-8AC8-45DB657BBC4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90F693EE-3765-4D67-8AC8-45DB657BBC4C}.Debug|x64.ActiveCfg = Debug|x64
+		{90F693EE-3765-4D67-8AC8-45DB657BBC4C}.Debug|x64.Build.0 = Debug|x64
+		{90F693EE-3765-4D67-8AC8-45DB657BBC4C}.Debug|x86.ActiveCfg = Debug|Win32
+		{90F693EE-3765-4D67-8AC8-45DB657BBC4C}.Debug|x86.Build.0 = Debug|Win32
+		{90F693EE-3765-4D67-8AC8-45DB657BBC4C}.Release|x64.ActiveCfg = Release|x64
+		{90F693EE-3765-4D67-8AC8-45DB657BBC4C}.Release|x64.Build.0 = Release|x64
+		{90F693EE-3765-4D67-8AC8-45DB657BBC4C}.Release|x86.ActiveCfg = Release|Win32
+		{90F693EE-3765-4D67-8AC8-45DB657BBC4C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C0C0D70-2A8C-4B8D-9E35-E818E6FC5B92}
+	EndGlobalSection
+EndGlobal
