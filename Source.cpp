@@ -1,13 +1,28 @@
-#include<bits/stdc++.h> 
+#include <iostream>
 using namespace std;
 int main()
 {
-    int a, b, c;
-    cin >> a >> b;
-    while (b != 0)
+    int a, b[100][1], max = -99, n;
+    cin >> a;
+    for (int i = 0; i < a; i++)
     {
-        c = a; a = b; b = c % a;
+        cin >> b[i][0] >> b[i][1];
+        if (b[i][1] == 1 && b[i][0] > max)
+        {
+            max = b[i][0];
+            n = i + 1;
+        }
+        else
+        {
+            continue;
+        }
     }
-    cout << a;
-    return 0;
+    if (max > -99)
+    {
+        cout << n;
+    }
+    else
+    {
+        cout << "-1";
+    }
 }
