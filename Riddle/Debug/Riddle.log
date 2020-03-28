@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\User\Desktop\Problems\Riddle\Source.cpp(5,10): warning C4101: 'd': unreferenced local variable
+  Riddle.vcxproj -> C:\Users\User\Desktop\Problems\Riddle\Debug\Riddle.exe
